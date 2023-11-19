@@ -102,9 +102,9 @@ public class UserTest {
     }
 
         @Owner("Anton Melnikov")
-        @Feature("Тестирование запроса имени и работы при создании пользователя")
+        @Feature("Тестирование запроса при создании пользователя")
         @Test
-        @Tag("userData")
+        @Tag("account")
         @DisplayName("Создание нового пользователя")
         @Severity(SeverityLevel.BLOCKER)
         void createUserTest () {
